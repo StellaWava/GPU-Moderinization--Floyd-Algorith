@@ -1,0 +1,32 @@
+# General
+.DS_Store
+*.tmp
+*.log
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# CUDA/C++ build artifacts
+*.o
+*.exe
+*.out
+*.so
+
+# LaTeX output
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+
+# Ignore everything in the workspace by default to avoid tracking empty directories
+# (Git does not track empty folders, so this simply prevents accidental file additions)
+#*
+!*/
+*.tex 
+*.gz
+
+# If you need to track a specific file in an otherwise empty folder, add it explicitly with !path
