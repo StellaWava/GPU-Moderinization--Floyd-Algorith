@@ -1,6 +1,6 @@
 # Class Work Repository
 
-This repository contains Floyd's Algorith learning materials, code, data, and supporting documents used by a student for class projects and assignments.
+This repository contains Floyd's Algorith learning materials, code, data, and supporting documents examined against Quinn's PCAM methodoly
 
 ## Directory Structure
 
@@ -16,13 +16,13 @@ This repository contains Floyd's Algorith learning materials, code, data, and su
 
 - `src/floyd_warshall_cuda.cu` - CUDA implementation of the Floyd-Warshall algorithm.
 - `src/floyd_warshall_fwp_cuda.ipynb` - Jupyter notebook exploring the CUDA implementation.
-- `results/` - Contains LaTeX build artifacts and other generated files.
+- `results/` - Contains artifacts and other generated files.
 
 ## Usage
 
 1. Clone the repository:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/StellaWava/GPU-Moderinization--Floyd-Algorith.git
    cd classwk
    ```
 2. Inspect the `src/` folder for code examples and projects.
@@ -30,7 +30,7 @@ This repository contains Floyd's Algorith learning materials, code, data, and su
 
 ## License
 
-Specify a license if needed.
+Opensource 
 
 ## Contact
 
